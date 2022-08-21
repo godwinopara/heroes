@@ -31,7 +31,7 @@ button {
     color: black;
     font-size: 1.2rem;
     padding: 1rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -50,4 +50,29 @@ button:disabled {
 /* everywhere else */
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* AppComponent's private CSS styles */
+h1 {
+    margin-bottom: 0;
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #42545C;
+}
+
+nav a:active {
+    background-color: black;
 }
